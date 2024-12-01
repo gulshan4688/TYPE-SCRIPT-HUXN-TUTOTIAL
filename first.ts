@@ -194,17 +194,17 @@ interface MovieGenre extends MovieDetails {
   genre: string;
 }
 
-const movie2: MovieGenre = {
-  name1: "raone",
-  year: 2009,
-  ratings: 9.5,
-  genre: "action",
-  printInfo(name1: string, year: number, ratings: number): number | string {
-    console.log("hii");
-    return `name: ${this.name1} and ratings: ${this.ratings}`;
-  },
-};
+// const movie2: MovieGenre = {
+//   name1: "raone",
+//   year: 2009,
+//   ratings: 9.5,
+//   genre: "action",
+//   printInfo(name1: string, year: number, ratings: number): number | string {
+//     console.log("hii");
+//     return `name: ${this.name1} and ratings: ${this.ratings}`;
+//   },
+// };
 
-// Invoke the printInfo method and print the result
-const printMovie = movie2.printInfo("raone", 2020, 65);
-console.log(printMovie);
+// // Invoke the printInfo method and print the result
+// const printMovie = movie2.printInfo("raone", 2020, 65);
+// console.log(printMovie);
