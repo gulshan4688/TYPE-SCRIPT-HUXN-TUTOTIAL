@@ -1,23 +1,28 @@
-// ----------------------------
-let color: "red" | "blue" | "green";
-color = "green";
-console.log(color);
-// ----------------------------
+// // ----------------------------
+// let color: "red" | "blue" | "green";
+// color = "green";
+// console.log(color);
+// // ----------------------------
 
-// ----------------------------
-let isTrue: true | false;
-isTrue = true;
-console.log(isTrue);
-// ----------------------------
+// // ----------------------------
+// let isTrue: true | false;
+// isTrue = true;
+// console.log(isTrue);
+// // ----------------------------
 
-// ----------------------------
-let number = 1 | 2 | 3;
-number = 1;
-console.log(number);
-// ----------------------------
+// // ----------------------------
+// let number = 1 | 2 | 3;
+// number = 1;
+// console.log(number);
+// // ----------------------------
 
-// ----------------------------
-let password: "secretpassword" = "secretpassword";
-// password = "tryinganotherpassword"; // Warning ⚠️
-console.log(password);
-// ----------------------------
+// // ----------------------------
+// let password: "secretpassword" = "secretpassword";
+// // password = "tryinganotherpassword"; // Warning ⚠️
+// console.log(password);
+// // ----------------------------
+
+type name = string;
+let mani: name = "naam";
+console.log(mani);
+let color1: "mani" | "blue" | "red";
